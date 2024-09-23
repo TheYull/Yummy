@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #774e2e;
+  margin: 0;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+span {
+  color: #f37f34;
+}
+a {
+  text-decoration: none;
+  color: #774e2e;
+}
+.logo {
+  width: 79px;
+  height: 79px;
+}
+.logo img {
+  width: 100%;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 110px;
+  letter-spacing: 5.5px;
+  margin-bottom: 40px;
+  line-height: 100%;
+}
+h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 110%;
+  letter-spacing: 0.01em;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+header nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+
+.subheader .container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../img/first_picture.png);
+  background-repeat: no-repeat;
+  height: 600px;
+  background-position: right center;
+}
+.subheader .greetigs {
+  width: 50%;
+}
+.subheader p {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+button {
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #fff;
+  background-color: #774e2e;
+  border: none;
+  padding: 20px;
+  width: 343px;
+  height: 69px;
+}
+button:hover {
+  background-color: #f37f34;
+}
+.favorite_candies {
+  background-color: #fff9ea;
+}
+.favorite_candies .container {
+  margin-top: 210px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 150px 0;
+}
+.favorite_candies .candys {
+  width: 370px;
+  height: 462px;
+  background: #fff;
+}
+.favorite_candies h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 0;
+}
+.favorite_candies p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.advice .container {
+  background-image: url(../img/second_picture.png);
+  background-repeat: no-repeat;
+  height: 722px;
+  background-position: right center;
+}
+.advice .advice_text {
+  width: 50%;
+}
+.advice h2 {
+  margin-top: 194px;
+  margin-bottom: 30px;
+}
+.advice p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.advice h3 {
+  margin-top: 60px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+}
+.advice li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+footer {
+  background-color: #774e2e;
+}
+footer .container {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+footer p {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
